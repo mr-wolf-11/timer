@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div id="back">
+        <div id="innerbox">
+            <h1>
+                Online Timer And Stopwatch
+            </h1>
+            <div id="screen">
+                <div id="minutes">
+                    <div class="top"><h1>0</h1></div>
+                    <div class="bottom"><p>minutes</p></div>
+                </div>
+                <h1 id ="colon">:</h1>
+                <div id="seconds">
+                    <div class="top"><h1>0</h1></div>
+                    <div class="bottom"><p>seconds</p></div>
+                </div> 
+                <h1 id ="colon">:</h1>
+                <div id="centiseconds">
+                    <div class="top"><h1>0</h1></div>
+                    <div class="bottom"><p>centiseconds</p></div>
+                </div>
+            </div>
+            <div id="buttons">
+                <button id="start" onclick="start()">Start</button>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
